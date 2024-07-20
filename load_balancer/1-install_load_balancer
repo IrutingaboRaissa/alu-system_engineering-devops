@@ -13,7 +13,7 @@ server_config=\
 frontend Raissa-frontend
         bind *:80
         mode http
-        default_backend elissa-backend
+        default_backend Raissa-backend
 backend Raissa-backend
         balance roundrobin
         server 6126-web-01 6126-web-01:80 check
