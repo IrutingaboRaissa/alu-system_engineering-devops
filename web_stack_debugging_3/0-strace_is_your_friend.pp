@@ -1,3 +1,4 @@
+# trace your friends
 d "phpp" extensions to "php" in "wp-settings.php".
 
 exec{'fix-wordpress':
